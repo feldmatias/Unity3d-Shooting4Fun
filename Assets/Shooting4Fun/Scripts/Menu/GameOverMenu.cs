@@ -9,6 +9,7 @@ public class GameOverMenu : MonoBehaviour
 
     private void OnEnable()
     {
+        AudioManager.Instance.PlayGameOverAudio();
         resultsText.text = "You killed " + EnemyManager.Instance.EnemyKills + " enemies.";
     }
 }

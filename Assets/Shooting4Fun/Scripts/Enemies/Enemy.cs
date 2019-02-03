@@ -181,6 +181,7 @@ public class Enemy : MonoBehaviour, IDeathable
         GetComponent<Collider>().enabled = false;
         animator.SetTrigger(EnemyAnimationTags.DEAD_TRIGGER);
         EnemyManager.Instance.EnemyKilled();
+        AudioManager.Instance.PlayDeathAudio(transform.position);
     }
 
     public bool IsDead()

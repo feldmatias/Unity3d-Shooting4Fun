@@ -15,6 +15,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip grenadeLauncherShootAudio;
     public AudioClip reloadAudio;
     public AudioClip boosterPickAudio;
+    public AudioClip deathAudio;
+    public AudioClip gameOverAudio;
 
     public AudioClip noAmmoAudio;
     public float noAmmoAudioTimeout = 0.2f;
@@ -116,5 +118,15 @@ public class AudioManager : MonoBehaviour
     public void PlayBosoterPickAudio(Vector3 position)
     {
         PlayAudio(boosterPickAudio, position);
+    }
+
+    public void PlayDeathAudio(Vector3 position)
+    {
+        PlayAudio(deathAudio, position);
+    }
+
+    public void PlayGameOverAudio()
+    {
+        PlayAudio(gameOverAudio, AssetsManager.Instance.Player.transform.position);
     }
 }

@@ -770,7 +770,7 @@ MonoBehaviour:
   munition: 200
   munitionToAdd: 50
   clipSize: 12
-  damage: 40
+  damage: 30
 --- !u!1 &3129447127539913342
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +824,7 @@ MonoBehaviour:
   munition: 100
   munitionToAdd: 60
   clipSize: 20
-  damage: 20
+  damage: 30
   shootRadius: 0.15
 --- !u!1 &5720873812857124725
 GameObject:

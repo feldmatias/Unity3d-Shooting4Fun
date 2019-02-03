@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public Canvas hudCanvas;
     public Canvas pauseMenuCanvas;
     public Canvas gameOverCanvas;
+    public Canvas mapCanvas;
 
     private bool gamePaused = false;
     private bool gameEnded = false;
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
 
         if (gamePaused) {
             UnlockMouse();
+            mapCanvas.gameObject.SetActive(false);
         } else {
             LockMouse();
         }
@@ -63,12 +65,33 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(Scenes.GAME);
     }
 
+    public void ShowMap()
+    {
+        if (gamePaused || gameEnded) {
+            return;
+        }
+
+        hudCanvas.gameObject.SetActive(false);
+        mapCanvas.gameObject.SetActive(true);
+    }
+
+    public void HideMap()
+    {
+        if (gamePaused || gameEnded) {
+            return;
+        }
+
+        hudCanvas.gameObject.SetActive(true);
+        mapCanvas.gameObject.SetActive(false);
+    }
+
     public void EndGame()
     {
         gameEnded = true;
         gameOverCanvas.gameObject.SetActive(true);
         hudCanvas.gameObject.SetActive(false);
         pauseMenuCanvas.gameObject.SetActive(false);
+        mapCanvas.gameObject.SetActive(false);
         Time.timeScale = 0;
         UnlockMouse();
     }

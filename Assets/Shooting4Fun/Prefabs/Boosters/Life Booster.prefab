@@ -130,4 +130,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rechargeDuration: 300
-  lifeToGive: 750
+  lifeToGive: 400

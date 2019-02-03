@@ -20,6 +20,7 @@ public class InputManager : MonoBehaviour
     void Update()
     {
         ProcessGamePaused();
+        ProcessShowMap();
         ProcessPlayerMovementInput();
         ProcessPlayerAiming();
         ProcessPlayerShooting();
@@ -30,6 +31,15 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             gameManager.TogglePausedGame();
+        }
+    }
+
+    private void ProcessShowMap()
+    {
+        if (Input.GetKeyUp(KeyCode.M)) {
+            gameManager.HideMap();
+        } else if (Input.GetKeyDown(KeyCode.M)) {
+            gameManager.ShowMap();
         }
     }
 

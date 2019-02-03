@@ -49,7 +49,7 @@ public class EnemyManager : MonoBehaviour
         var spawners = AssetsManager.Instance.EnemySpawners;
         var spawner = spawners[Random.Range(0, spawners.Length)];
         var enemy = Instantiate(enemyPrefabs[Random.Range(0, enemyPrefabs.Length)]);
-        enemy.transform.position = spawner.transform.position;
+        enemy.transform.position = spawner.transform.position + Random.Range(-10f, 10f) * Vector3.right + Random.Range(-10f, 10f) * Vector3.forward;
         enemy.transform.SetParent(spawner.transform);
     }
 }
