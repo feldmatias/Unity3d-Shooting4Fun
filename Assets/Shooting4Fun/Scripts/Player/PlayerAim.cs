@@ -24,7 +24,7 @@ public class PlayerAim : MonoBehaviour
     {
         if (IsAiming){
             var targetPosition = transform.position + transform.forward;
-            targetPosition.y += transform.position.y - Camera.main.transform.position.y + verticalOffset;
+            targetPosition.y += transform.position.y - AssetsManager.Instance.MainCamera.transform.position.y + verticalOffset;
 
             animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
             animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1);

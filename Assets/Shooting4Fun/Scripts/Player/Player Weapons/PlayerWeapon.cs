@@ -46,9 +46,9 @@ public abstract class PlayerWeapon : MonoBehaviour
     private void Rotate()
     {
         if (player.playerAim.IsAiming) {
-            var targetRotation = Quaternion.LookRotation(Camera.main.transform.forward);
+            var targetRotation = Quaternion.LookRotation(AssetsManager.Instance.MainCamera.transform.forward);
             RaycastHit hit;
-            if (Physics.SphereCast(Camera.main.transform.position, 0.08f, Camera.main.transform.forward, out hit)){
+            if (Physics.SphereCast(AssetsManager.Instance.MainCamera.transform.position, 0.08f, AssetsManager.Instance.MainCamera.transform.forward, out hit)){
                 targetRotation = Quaternion.LookRotation((hit.point - transform.position).normalized);
             }
 

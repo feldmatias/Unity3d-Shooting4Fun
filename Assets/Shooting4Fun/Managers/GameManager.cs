@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public Canvas pauseMenuCanvas;
     public Canvas gameOverCanvas;
     public Canvas mapCanvas;
+    public Canvas introCanvas;
+    public float introCanvasTime = 3f;
 
     private bool gamePaused = false;
     private bool gameEnded = false;
@@ -19,6 +21,9 @@ public class GameManager : MonoBehaviour
         hudCanvas.gameObject.SetActive(true);
         pauseMenuCanvas.gameObject.SetActive(false);
         gameOverCanvas.gameObject.SetActive(false);
+        mapCanvas.gameObject.SetActive(false);
+        introCanvas.gameObject.SetActive(true);
+        Destroy(introCanvas.gameObject, introCanvasTime);
         Time.timeScale = 1;
     }
 

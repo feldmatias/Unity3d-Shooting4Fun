@@ -49,15 +49,15 @@ public class InputManager : MonoBehaviour
         Vector3 direction = Vector3.zero;
 
         if (Input.GetKey(KeyCode.A)){
-            direction -= Camera.main.transform.right;
+            direction -= AssetsManager.Instance.MainCamera.transform.right;
         } else if (Input.GetKey(KeyCode.D)){
-            direction += Camera.main.transform.right;
+            direction += AssetsManager.Instance.MainCamera.transform.right;
         }
 
         if (Input.GetKey(KeyCode.W)){
-            direction += Camera.main.transform.forward;
+            direction += AssetsManager.Instance.MainCamera.transform.forward;
         } else if (Input.GetKey(KeyCode.S)){
-            direction -= Camera.main.transform.forward;
+            direction -= AssetsManager.Instance.MainCamera.transform.forward;
         }
 
 

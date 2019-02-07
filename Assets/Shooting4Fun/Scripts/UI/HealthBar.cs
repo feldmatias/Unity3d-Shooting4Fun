@@ -21,6 +21,6 @@ public class HealthBar : MonoBehaviour
         var health = target.HealthPercentage;
         healthbar.fillAmount = health;
 
-        transform.LookAt(Camera.main.transform.position);
+        transform.LookAt(AssetsManager.Instance.MainCamera.transform.position);
     }
 }

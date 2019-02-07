@@ -83,8 +83,10 @@ public class Player : MonoBehaviour, IDeathable
     }
 
     public void ToggleCrouch(){
-        animator.SetTrigger(PlayerAnimationTags.CROUCH_TRIGGER);
-        isCrouching = !isCrouching;
+        if (playerJump.IsGrounded()) {
+            animator.SetTrigger(PlayerAnimationTags.CROUCH_TRIGGER);
+            isCrouching = !isCrouching;
+        }
     }
 
     public void Jump()
@@ -108,7 +110,7 @@ public class Player : MonoBehaviour, IDeathable
     private void Rotate()
     {
         if (playerAim.IsAiming){
-            targetRotation = Quaternion.LookRotation(Camera.main.transform.forward);
+            targetRotation = Quaternion.LookRotation(AssetsManager.Instance.MainCamera.transform.forward);
         }
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }

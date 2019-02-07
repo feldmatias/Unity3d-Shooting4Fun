@@ -18,7 +18,7 @@ public class MinimapCamera : MonoBehaviour
     {
         transform.position = new Vector3(target.position.x, height, target.position.z);
 
-        transform.eulerAngles = new Vector3 (transform.eulerAngles.x, Camera.main.transform.eulerAngles.y, 0);
+        transform.eulerAngles = new Vector3 (transform.eulerAngles.x, AssetsManager.Instance.MainCamera.transform.eulerAngles.y, 0);
 
     }
 }

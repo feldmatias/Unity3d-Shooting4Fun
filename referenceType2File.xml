@@ -1600,7 +1600,7 @@
   <TypeDate>
     <guid>942579193b4abf04a95be378e08510d7</guid>
     <fileName>Assets/Shooting4Fun/Managers/AssetsManager.cs</fileName>
-    <timeStamp>2019-02-02T16:35:33.8132582-03:00</timeStamp>
+    <timeStamp>2019-02-07T16:48:21.9362437-03:00</timeStamp>
     <typeFullName>
       <string>AssetsManager</string>
     </typeFullName>
@@ -1609,7 +1609,7 @@
   <TypeDate>
     <guid>07fedea763c419c45a3f1c2261b78e7f</guid>
     <fileName>Assets/Shooting4Fun/Managers/AudioManager.cs</fileName>
-    <timeStamp>2019-02-01T20:47:07.6107994-03:00</timeStamp>
+    <timeStamp>2019-02-03T17:28:35.8811985-03:00</timeStamp>
     <typeFullName>
       <string>AudioManager</string>
     </typeFullName>
@@ -1618,7 +1618,7 @@
   <TypeDate>
     <guid>f54f51eb3d9afb740b191402d9f526ca</guid>
     <fileName>Assets/Shooting4Fun/Managers/EnemyManager.cs</fileName>
-    <timeStamp>2019-02-02T17:30:19.0153446-03:00</timeStamp>
+    <timeStamp>2019-02-03T18:15:19.8811328-03:00</timeStamp>
     <typeFullName>
       <string>EnemyManager</string>
     </typeFullName>
@@ -1627,7 +1627,7 @@
   <TypeDate>
     <guid>b28402145abbd3045b6ee94be13fd889</guid>
     <fileName>Assets/Shooting4Fun/Managers/HudManager.cs</fileName>
-    <timeStamp>2019-02-01T19:36:38.2275718-03:00</timeStamp>
+    <timeStamp>2019-02-07T16:19:34.1155296-03:00</timeStamp>
     <typeFullName>
       <string>WeaponImage</string>
       <string>HudManager</string>
@@ -1637,7 +1637,7 @@
   <TypeDate>
     <guid>3fb2de2dc2fd29648ba2fbecd99a6ad0</guid>
     <fileName>Assets/Shooting4Fun/Managers/InputManager.cs</fileName>
-    <timeStamp>2019-02-02T18:42:27.5467253-03:00</timeStamp>
+    <timeStamp>2019-02-03T18:27:44.8116501-03:00</timeStamp>
     <typeFullName>
       <string>InputManager</string>
     </typeFullName>
@@ -1704,7 +1704,7 @@
   <TypeDate>
     <guid>8f7e7ec20c9865b47a8d1a463552e0a2</guid>
     <fileName>Assets/Shooting4Fun/Scripts/Bullet/Rocket.cs</fileName>
-    <timeStamp>2019-01-27T16:25:36.4973174-03:00</timeStamp>
+    <timeStamp>2019-02-05T19:21:54.0260101-03:00</timeStamp>
     <typeFullName>
       <string>Rocket</string>
     </typeFullName>
@@ -1713,7 +1713,7 @@
   <TypeDate>
     <guid>75451745fad1ad740bd5e69872908704</guid>
     <fileName>Assets/Shooting4Fun/Scripts/Cameras/GameCamera.cs</fileName>
-    <timeStamp>2019-01-30T16:45:06.668969-03:00</timeStamp>
+    <timeStamp>2019-02-07T16:20:05.3540612-03:00</timeStamp>
     <typeFullName>
       <string>GameCamera</string>
     </typeFullName>
@@ -1740,7 +1740,7 @@
   <TypeDate>
     <guid>434f688c147f58640b789c558d4114a2</guid>
     <fileName>Assets/Shooting4Fun/Scripts/Enemies/Enemy.cs</fileName>
-    <timeStamp>2019-02-02T17:30:15.611662-03:00</timeStamp>
+    <timeStamp>2019-02-03T17:29:49.3253305-03:00</timeStamp>
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
@@ -1786,7 +1786,7 @@
   <TypeDate>
     <guid>7b804581a359d9640b493827179c29e4</guid>
     <fileName>Assets/Shooting4Fun/Scripts/Player/Player.cs</fileName>
-    <timeStamp>2019-02-02T19:09:53.06553-03:00</timeStamp>
+    <timeStamp>2019-02-07T16:22:05.3028365-03:00</timeStamp>
     <typeFullName>
       <string>Player</string>
     </typeFullName>
@@ -1894,7 +1894,7 @@
   <TypeDate>
     <guid>6e59288fb6258384c9a88e87fffc8244</guid>
     <fileName>Assets/Shooting4Fun/Scripts/Bullet/EnemyDetector.cs</fileName>
-    <timeStamp>2019-01-31T19:56:45.0812936-03:00</timeStamp>
+    <timeStamp>2019-02-07T16:19:57.2153607-03:00</timeStamp>
     <typeFullName>
       <string>EnemyDetector</string>
     </typeFullName>
@@ -1966,7 +1966,7 @@
   <TypeDate>
     <guid>cd32950d7e7cf1743bf63b41caf76ece</guid>
     <fileName>Assets/Shooting4Fun/Managers/GameManager.cs</fileName>
-    <timeStamp>2019-02-02T18:52:42.6812965-03:00</timeStamp>
+    <timeStamp>2019-02-07T16:40:01.7379886-03:00</timeStamp>
     <typeFullName>
       <string>GameManager</string>
     </typeFullName>
@@ -1975,7 +1975,7 @@
   <TypeDate>
     <guid>37f357615ba3f9640aeaf8c620798777</guid>
     <fileName>Assets/Shooting4Fun/Scripts/Menu/GameOverMenu.cs</fileName>
-    <timeStamp>2019-02-02T19:06:05.5165953-03:00</timeStamp>
+    <timeStamp>2019-02-03T17:30:04.5234428-03:00</timeStamp>
     <typeFullName>
       <string>GameOverMenu</string>
     </typeFullName>
@@ -1987,6 +1987,61 @@
     <timeStamp>2019-02-02T18:17:03.2772871-03:00</timeStamp>
     <typeFullName>
       <string>Menu</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8307f1d11e319054582872b057d8de98</guid>
+    <fileName>Assets/Libraries/Virtual Joystick Pack/Scripts/Base/Joystick.cs</fileName>
+    <timeStamp>2018-07-17T15:19:19-03:00</timeStamp>
+    <typeFullName>
+      <string>Joystick</string>
+      <string>JoystickMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cecce8d3f549de045bea5fd79de9e7cb</guid>
+    <fileName>Assets/Libraries/Virtual Joystick Pack/Scripts/Joysticks/FixedJoystick.cs</fileName>
+    <timeStamp>2018-07-17T15:19:27-03:00</timeStamp>
+    <typeFullName>
+      <string>FixedJoystick</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6669b2160065e50478339b2530a7a11a</guid>
+    <fileName>Assets/Libraries/Virtual Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs</fileName>
+    <timeStamp>2019-02-05T17:35:13.1880564-03:00</timeStamp>
+    <typeFullName>
+      <string>FloatingJoystick</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e416e03b0c0b7b04d9a7ce4a56ef5da1</guid>
+    <fileName>Assets/Libraries/Virtual Joystick Pack/Scripts/Joysticks/VariableJoystick.cs</fileName>
+    <timeStamp>2018-07-17T15:19:28-03:00</timeStamp>
+    <typeFullName>
+      <string>VariableJoystick</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4826af40bbbc5c441beb37e1e29e05ef</guid>
+    <fileName>Assets/Shooting4Fun/Managers/MobileHudManager.cs</fileName>
+    <timeStamp>2019-02-05T19:10:26.2374168-03:00</timeStamp>
+    <typeFullName>
+      <string>MobileHudManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d48f5fb982ab7194ca8e6a094d16e25b</guid>
+    <fileName>Assets/Shooting4Fun/Managers/MobileInputManager.cs</fileName>
+    <timeStamp>2019-02-05T20:09:45.5290983-03:00</timeStamp>
+    <typeFullName>
+      <string>MobileInputManager</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
